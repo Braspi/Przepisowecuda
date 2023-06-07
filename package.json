@@ -17,7 +17,8 @@
     "@iconify/icons-fa-solid": "^1.2.4",
     "@iconify/vue": "^4.1.1",
     "vue": "^3.2.47",
-    "vue-icons": "^2.0.0"
+    "vue-icons": "^2.0.0",
+    "vue-router": "^4.2.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

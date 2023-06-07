@@ -28,6 +28,9 @@ dependencies:
   vue-icons:
     specifier: ^2.0.0
     version: 2.0.0(callback-loader@0.2.4)
+  vue-router:
+    specifier: ^4.2.1
+    version: 4.2.1(vue@3.2.47)
 
 devDependencies:
   '@vitejs/plugin-vue':
@@ -440,6 +443,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.47
       '@vue/shared': 3.2.47
+
+  /@vue/devtools-api@6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
+    dev: false
 
   /@vue/reactivity-transform@3.2.47:
     resolution: {integrity: sha512-m8lGXw8rdnPVVIdIFhf0LeQ/ixyHkH5plYuS83yop5n7ggVJU+z5v0zecwEnX7fa7HNLBhh2qngJJkxpwEEmYA==}
@@ -1267,6 +1274,15 @@ packages:
     dependencies:
       javascript-detect-element-resize: 0.5.3
       lodash: 4.17.21
+    dev: false
+
+  /vue-router@4.2.1(vue@3.2.47):
+    resolution: {integrity: sha512-nW28EeifEp8Abc5AfmAShy5ZKGsGzjcnZ3L1yc2DYUo+MqbBClrRP9yda3dIekM4I50/KnEwo1wkBLf7kHH5Cw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.47
     dev: false
 
   /vue@3.2.47:

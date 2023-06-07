@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <Nav></Nav>
+  <div class="flex">
+    <Sitemap/>
+    <RecipeSec/>
   </div>
 </template>
-<script>
-import Nav from './Nav.vue';
-
-export default {
-    components: {
-        Nav
-    },
-};
+<script setup>
+import Sitemap from './Sitebar.vue';
+import RecipeSec from "./View/RecipeSec.vue";
 </script>
