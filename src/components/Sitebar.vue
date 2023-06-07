@@ -13,7 +13,7 @@
     </section>
     <nav id="navbar" :class="{'translate-x-0': !isNavbarHidden, '-translate-x-full' : isNavbarHidden}" class="absolute bg-main-color h-screen w-64 z-20 top-0 left-0 transition-transform duration-300 ease-in-out">
         <button @click="toggleNavbar">
-            <img src="src/assets/icon/logo/logo.png">
+            <img src="../../assets/icon/logo/logo.png">
         </button>
         <section class="flex flex-col items-center cursor-pointer flex-grow">
             <router-link to="/przepisy" class="mt-8 text-2xl font-medium hover:text-gray-800">Przepisy</router-link>
